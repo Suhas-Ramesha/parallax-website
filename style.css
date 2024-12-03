@@ -1,0 +1,214 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+/* Parallax Image Styling */
+.parallax-image {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh; /* Full screen height */
+}
+
+.pimg1 {
+    background-image: url('mv1.jpg');
+}
+
+.pimg2 {
+    background-image: url('mv2.jpg');
+}
+
+.pimg3 {
+    background-image: url('mv3.jpg');
+}
+
+/* Text Styling for Parallax Images */
+.parallax-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.border {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.link-text {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section Styling */
+.section {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.section-dark {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+/* Heading Styling */
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .parallax-text {
+        font-size: 1.8rem;
+    }
+    .section {
+        padding: 40px 20px;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Scroll-to-Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+/* Parallax Image Styles */
+.parallax-image {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background
+}
+
+#register {
+    padding: 50px 20px;
+    text-align : center;
+    background : #333;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #1a1a2e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+form input, form select {
+    background: white;
+    color: #151212;
+}
+form button {
+    background: #73a2c9;
+    color: #f4f1f1;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+form button:hover {
+    background: #e94560;
+    color: #fff;
+}
