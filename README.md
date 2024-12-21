@@ -3,6 +3,10 @@
 A sleek and modern parallax scrolling website template, perfect for creating visually stunning and interactive web pages. This template is designed to captivate users with smooth scrolling effects and dynamic content transitions, making it ideal for portfolios, landing pages, or creative projects.  
 
 ---
+![Website Preview](assets/images/preview.png)
+
+
+Visit the demo here: [Parallax Website Demo](https://parallax-website-ebon.vercel.app/)
 
 ## 🚀 Features  
 
@@ -92,12 +96,6 @@ Open index.html in your preferred browser to see the website in action.
 
 Customize as Needed:
 Update content, styles, and images to make the template your own.
-
-
-🖼️ Preview
-
-
-Visit the demo here: [Parallax Website Demo](https://parallax-website-ebon.vercel.app/)
 
 
 🤝 Contributing
